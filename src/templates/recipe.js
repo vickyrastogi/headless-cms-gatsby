@@ -96,7 +96,7 @@ export const query = graphql`
         category: field_recipe_category {
           name
         }
-        image: field_image {
+        image: field_images {
           localFile {
             childImageSharp {
               fluid(maxWidth: 470, maxHeight: 353) {

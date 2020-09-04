@@ -206,7 +206,7 @@ export const pageQuery = graphql`
             slug
           }
           relationships {
-            image: field_image {
+            image: field_images {
               localFile {
                 childImageSharp {
                   fluid(maxWidth: 740, maxHeight: 555) {
@@ -234,7 +234,7 @@ export const pageQuery = graphql`
             category: field_recipe_category {
               name
             }
-            image: field_image {
+            image: field_images {
               localFile {
                 childImageSharp {
                   fluid(maxWidth: 240, maxHeight: 240) {
@@ -262,7 +262,7 @@ export const pageQuery = graphql`
             category: field_recipe_category {
               name
             }
-            image: field_image {
+            image: field_images {
               localFile {
                 childImageSharp {
                   fluid(maxWidth: 475, maxHeight: 475) {
