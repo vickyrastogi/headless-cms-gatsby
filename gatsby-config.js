@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `https://dev-themes-pepsibe-cms.wspuat.com/en/`,
+        baseUrl: `http://dev-themes-pepsibe-cms.wspuat.com/en/`,
         apiBase: `jsonapi`
       }
     },
