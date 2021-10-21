@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `http://commerceplatform.wspuat.com/umami/`,
+        baseUrl: `https://dev-themes-pepsibe-cms.wspuat.com/en/`,
         apiBase: `jsonapi`
       }
     },
